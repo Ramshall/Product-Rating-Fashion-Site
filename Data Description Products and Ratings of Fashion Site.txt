@@ -1,0 +1,45 @@
+# Dataset Title :
+Products and Ratings of Fashion Site
+
+# Description:
+This dataset is a record of the products on the NewChic.com website and their popularity or interactions with customers. This dataset was collected in August 2020.
+
+# Attribute Details:
+main_categories
+- category_ID : unique ID of the category type
+- category_name : category name
+
+sub_categories
+- subcategory_ID : unique ID of the sub-category type
+- subcategory_name : name of sub-category
+
+products
+- product_ID : unique ID of the product
+- product_name : product name
+
+brand_details
+- brand_ID : unique ID of the brand/brand name
+- brand_name : name of the brand/brand
+- brand_url : brand/brand site link
+
+item_details
+- item_ID : unique ID of item detail
+- product_ID : unique ID of the product
+- variation_0_color : color variation
+- variation_1_color : other color variations
+
+events
+- ID : unique disability ID
+- sku : unique SKU (Stock Keeping Unit); note: SKU is the unique code of the item as the identity of the item that represents the characteristics of the item.
+- image_url : sku item image link
+- url_area : sku item site link
+- product_ID : ID of the product
+- brand_ID : ID of the brand name
+- category_ID : ID of the category type
+- subcategory_ID : ID of the sub-category type
+- item_ID : ID of item details
+- current_price : current price
+- perc.discount : percentage discount (in percent)
+- likes_count : number of likes
+- is_new : item status, "TRUE" is new item, "FALSE" is not new item
+- codCountry : country code, can be more than one country and separated by commas
